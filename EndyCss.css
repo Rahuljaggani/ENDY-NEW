@@ -1,0 +1,408 @@
+﻿ul {
+   list-style-type:none;
+}
+.carousel-content {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#text-carousel {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #000000a3;
+}
+
+
+.navimage {
+    height: 200px;
+    width: 200px;
+}
+
+#endyimage {
+    height: 30px;
+    width: 40px;
+}
+
+.img1
+{
+    height:500px;
+    width:70%;
+    float:left;
+    
+}
+.img2
+{
+    height:500px;
+    width: 30%;
+    float:left;
+    padding:4px;
+}
+
+.onimg
+{
+    display:block;
+    font-size:47px;
+    font-weight:300;
+    color:rgb(16, 21, 24);
+    font-family:serif;
+    line-height:1.1;
+    overflow-wrap:break-word;
+    position:absolute;
+    top:25%;
+    left:13%;
+}
+
+    button{
+    display: inline-block;
+    color: white;
+    background-color: rgb(196, 0, 88);
+    border: none;
+    box-shadow: rgba(90, 91, 92, 0.5) 0px 2px 4px;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    padding: 11px 20px 11px 20px;
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: Calibre, Helvetica, sans-serif;
+}
+
+    button:hover {
+        background-color: white;
+        color: rgb(196, 0, 88);
+        cursor: pointer;
+    }
+
+.award{
+    margin: 25px;
+    padding: 30px;
+
+}
+.container1 {
+    position: relative;
+    width: 50%;
+    max-width: 250px;
+    float: left;
+    width: 250px;
+    height:140px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.overlay
+{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container1:hover .overlay 
+{
+    opacity: 1;
+}
+
+.text-contant {
+    font-family: sans-serif;
+    margin: 100px auto;
+    color: #000500;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    position: relative;
+    height: 35px;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+  h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+ 
+
+ 
+.img{
+    width: 100%;
+    min-width: 400px;
+    display: block;
+    padding-top: 30px;
+    
+
+}
+.sub-img{
+    width: 50%;
+    min-height: 50px;
+    float: left;
+    object-fit: fill;
+}
+#img{
+    width:100%;
+    padding-left: 50px;
+    height: 400px; 
+}
+.sub-img1{
+    width: 47%;
+    min-height: 50px;
+    float: right;
+    object-fit: fill;
+}
+
+.shadowbox {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.shadowbox1 {
+    width:1000px;
+    margin-left:180px;
+}
+#cardbgimg
+{
+    background-image:url(image2/cardbgimg.jpeg);
+    height:500px;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 250px;
+    width: 300px;
+    margin-right: 40px;
+    margin-top: 50px;
+    background-color:white;
+}
+.checked {
+    margin-top: 25px;
+    color: orange;
+    float: right;
+}
+.card-text
+{
+    font-size:17px;
+}
+.location
+{
+    float:right;
+}
+    #img1{
+    width:80%;
+    padding-right: 12%;
+    height: 200px; 
+}
+#img2{
+    width:80%;
+    padding-right: 12%;
+    height : 200px; 
+}
+
+ 
+.image 
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+.completeimage1{
+    height:100%;
+    width:100%;
+    float:left;
+}
+.completeimage2 {
+    height: 270px;
+    width: 100%;
+    float: left;
+}
+.container2 {
+    position: relative;
+    width: 50%;
+    max-width: 250px;
+    width: 250px;
+    height:140px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.container2:hover .overlay 
+{
+    opacity: 1;
+}
+
+#textimage {
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+.textcolor 
+{
+    color:firebrick;
+}
+.banner{
+    display: inline-block;
+    height: 600px;
+    width:100%;
+    height:100%;
+}
+.banner-first{
+   
+    background-image :url(./Images/lastbed.jpg);
+    float: left;
+    width:100%;
+    height: 400px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#btn1 {
+    display: inline-block;
+    color: white;
+    background-color: rgb(196, 0, 88);
+    border: none;
+    box-shadow: rgba(90, 91, 92, 0.5) 0px 2px 4px;
+    position: relative;
+    padding: 6px;
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: Calibre, Helvetica, sans-serif;
+}
+
+    #btn1:hover {
+        background-color: white;
+        color: rgb(196, 0, 88);
+        cursor: pointer;
+    }
+
+#cardbutton {
+    display: inline-block;
+    color: white;
+    background-color: rgb(196, 0, 88);
+    border: none;
+    box-shadow: rgba(90, 91, 92, 0.5) 0px 2px 4px;
+    padding: 11px 20px 11px 20px;
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: Calibre, Helvetica, sans-serif;
+}
+
+#cardbutton:hover {
+    background-color: white;
+    color: rgb(196, 0, 88);
+    cursor: pointer;
+}
+
+.cardtext {
+    font-size: 40px;
+    color:black;
+}
+#cardimg{
+   height:100%;
+   width:100%;
+   margin-top:50px;
+   margin-bottom:10px;
+}
+#carddiv
+{
+    background-color:white;
+    margin-top:-300px;
+    padding:50px;
+}
+
+    /*  FOOTER  */
+    FOOTER {
+        height: 250px;
+        background-color: rgb(24, 19, 19);
+        color: white;
+        font-size: 20PX;
+        padding: 10PX;
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    }
+
+.title {
+    font-weight: bold;
+}
+
+.topic {
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icons {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.txtdiv {
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    background-image:url(image2/bgimage.jpg);
+    width: 100%;
+}
+.gotucovered {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+.stars{
+    float: left;
+    margin-top: -30px;
+}
+.sub-s{
+    margin-top: -8px;
+    padding-left: 2px;
+}
+.save10 {
+  
+    width:180px;
+    height:30px;
+    padding:8px;
+    text-align:center;
+    background-color: rgb(226, 235, 239);
+    border: 2px dotted rgb(89, 111, 140);
+    border-radius: 50px;
+    padding-bottom: 8px;
+
+}
+.pay{
+    
+        color: grey;
+        font-family: Calibre, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 5px;
+}
+.payment{
+ color: crimson;
+ font-size: 33px;
+}
+#SIZE{
+    width: 100%;
+}
+ 
